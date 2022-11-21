@@ -116,6 +116,10 @@
     height: 250px;
     margin: 20px;
 }
+.gallery img:hover {
+    transform: scale(1.3);
+}
+
 /* Contact Me Section */
 #contact {
     display: flex;
