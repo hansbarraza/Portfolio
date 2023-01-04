@@ -112,6 +112,12 @@
 
 }
 
+.text-center {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
 .gallery img {
     width: 340px;
     height: 250px;
@@ -143,6 +149,7 @@
     font-size: 1rem;
     font-weight: bold;
 }
+
 /* responsive to tablet size devices */
 @media screen and (max-width:767px) {
     .main-nav ul {
